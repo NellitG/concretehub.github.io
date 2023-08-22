@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: wheat;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  #calculatorForm {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  #output {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  /* Style the output values differently */
+  #totalArea,
+  #sideLength,
+  #perimeter,
+  #intermediateBrace,
+  #cornerBrace,
+  #barbedWireEstimate,
+  #chainLink,
+  #straightNails {
+    color: #4CAF50;
+  }
+
+  /* Existing CSS styles */
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* To maintain the aspect ratio of the image */
+  float: left;
+  border-radius: 25px;
+}
+
+#output {
+  margin-top: 20px;
+  border-top: 2px solid #4CAF50;
+  padding-top: 10px;
+}
+
+/* Style the output text fields */
+#output p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#output span {
+  font-weight: bold;
+  color: #4CAF50; /* Green color for the output values */
+  margin-left: 10px;
+}
+
+/* Style the output text fields */
+#output input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: yellow; /* Green background color */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  font-size: 16px; /* Font size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: orange; /* Darker green color on hover */
+}
+
+
+
+
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ecopost Estimate Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <img src="concretehub.png" alt="concretehub Logo" class="logo">
+  <h1>Concrete Hub Estimate Calculator</h1>
+  <form id="calculatorForm">
+    <label for="acres">Number of Acres:</label>
+    <input type="number" id="acres" required>
+
+    <label for="interval">Interval between posts in Meters:</label>
+    <input type="number" id="interval" required>
+
+    <label for="corners">Number of corners on your land:</label>
+    <input type="number" id="corners" required>
+
+    <label for="barbedWire">Lines of barbed wire:</label>
+    <input type="number" id="barbedWire" required>
+
+    <label for="transportDistance">Transport - Distance from Nbi to destination in Kilometer:</label>
+    <input type="number" id="transportDistance" required>
+
+    <label for="postWeight">Weight of the posts:</label>
+    <input type="number" id="postWeight" required>
+
+    <label for="peopleOffload">Number of people to off-load posts:</label>
+    <input type="number" id="peopleOffload" required>
+
+    <label for="postCost">Cost per post:</label>
+    <input type="number" id="postCost" required>
+
+    <label for="barbedWireCost">Cost per meter of barbed wire:</label>
+    <input type="number" id="barbedWireCost" required>
+
+    <label for="uNailsCost">Cost per KG of U-nails:</label>
+    <input type="number" id="uNailsCost" required>
+
+    <label for="straightNailsCost">Cost per KG of 4'' Straight nails:</label>
+    <input type="number" id="straightNailsCost" required>
+
+    <input type="submit" value="Calculate">
+  </form>
+
+  <h2>The answer is:</h2>
+  <p>Total area of your land in m2: <span id="totalArea">0</span></p>
+  <p>Length of one side of your land: <span id="sideLength">0</span></p>
+  <p>Perimeter of your land: <span id="perimeter">0</span></p>
+  <p>No of upright posts: <span id="uprightPosts">NAN</span></p>
+  <p>Intermediate brace posts: <span id="intermediateBrace">0</span></p>
+  <p>Corner Brace posts: <span id="cornerBrace">0</span></p>
+  <p>Total number of posts: <span id="totalPosts">NAN</span></p>
+  <p>Total cost of posts: <span id="totalCost"></span></p>
+  <p>Barbed wire: <span id="barbedWireEstimate">0</span></p>
+  <p>Chain-link: <span id="chainLink">0</span></p>
+  <p>U-nails in KG: <span id="uNails">NAN</span></p>
+  <p>4'' Straight nails for corner & braced posts in KG: <span id="straightNails">0</span></p>
+  <button id="orderButton" class="styled-button">Order Now</button>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
